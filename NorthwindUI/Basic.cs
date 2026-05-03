@@ -7,6 +7,9 @@ namespace NorthwindUI
 {
     public partial class Basic : Form
     {
+        // This is a demo project for using EF Core. See more details at:
+        // https://youtu.be/1a0pz5aTL5o  
+
         // Define instances of context and binding source at form level.
         NorthwindContext nwContext = new NorthwindContext();
         BindingSource nwBinding = new BindingSource();
